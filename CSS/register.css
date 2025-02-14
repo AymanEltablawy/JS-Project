@@ -1,0 +1,84 @@
+.container-1 {
+  background-color: white;
+  padding: 0 40px;
+  background-image: url("/images/img1.jpg") !important;
+  background-position: center;
+  background-size: cover;
+}
+.container-1 h2 {
+  color: #232f3e;
+}
+
+.register-card {
+  width: 50%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 1px 10px rgba(70, 68, 68, 0.8);
+}
+.form-group label {
+  color: #232f3e;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 2px 0;
+}
+.form-group {
+  text-align: start;
+  margin: 15px 0;
+}
+button {
+  background-color: #141516;
+  border-color: transparent;
+  border-radius: 7px !important;
+  color: white;
+  font-weight: bold;
+  padding: 5px 0;
+}
+button:hover {
+  background-color: white;
+  color: #04080c;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: 1px solid #232f3e;
+}
+span {
+  font-size: 14px;
+  color: red;
+  padding: 0;
+  margin: 0;
+  display: none;
+}
+span.active {
+  display: block;
+}
+@media (max-width: 992px) {
+  .register-card {
+    width: 60%;
+  }
+}
+
+@media (max-width: 768px) {
+  .register-card {
+    width: 80%;
+    padding: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .register-card {
+    width: 80%;
+    padding: 10px;
+  }
+
+  .container-1 {
+    padding: 0 10px;
+  }
+
+  button {
+    padding: 10px;
+  }
+}
+
+button {
+  transition: 0.3s ease-in-out;
+}

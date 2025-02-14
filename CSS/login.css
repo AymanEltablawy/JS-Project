@@ -1,0 +1,83 @@
+.container-1 {
+  background-color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  padding: 0 40px;
+  background-image: url("/images/img1.jpg") !important;
+  background-position: center;
+  background-size: cover;
+  justify-content: center;
+}
+.container-1 h2 {
+  color: blue;
+}
+
+.login-info {
+  width: 50%;
+  max-width: 600px;
+  min-width: 200px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 1px 10px rgba(70, 68, 68, 0.8);
+}
+
+.form-info label {
+  color: #232f3e;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 2px 0;
+}
+.form-info {
+  text-align: start;
+  margin: 15px 0;
+}
+button {
+  background-color: #090c10;
+  border-color: transparent;
+  border-radius: 7px !important;
+  color: white;
+  font-weight: bold;
+  padding: 5px 0;
+}
+button:hover {
+  background-color: white;
+  color: #232f3e;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: 1px solid #232f3e;
+}
+span {
+  font-size: 14px;
+  color: red;
+  padding: 0;
+  margin: 0;
+  display: none;
+}
+span.active {
+  display: block;
+}
+@media (max-width: 890px) {
+  .login-info {
+    width: 60%;
+  }
+}
+
+@media (max-width: 720px) {
+  .login-info {
+    width: 80%;
+    padding: 15px;
+  }
+}
+
+@media (max-width: 400px) {
+  .login-info {
+    width: 80%;
+    padding: 10px;
+  }
+
+  button {
+    padding: 10px;
+  }
+}

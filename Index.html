@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="/CSS/Main.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container-fluid vh-100" id="#home">
+        <nav
+          id="navbar-example"
+          class="navbar navbar-expand-lg fixed-top bg-opacity-100 nav-underline bg-light"
+        >
+          <div class="container">
+            <a class="navbar-brand dev ms-5" href="#">Ayman's Store </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-lg-0 pe-5">
+                <li class="nav-item">
+                  <a class="nav-link" href="#home">Home</a>
+                </li>
+
+                <li class="nav-item ps-3">
+                  <a class="nav-link" href="#products">Products</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="nameing" href=""></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link log" id="out" href="login.html">login</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link log" id="logout" href="login.html"
+                    >logout</a
+                  >
+                </li>
+                <li class="nav-item ps-3">
+                  <a class="nav-link log" id="out" href="register.html"
+                    >Register</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="cart.html"
+                    ><i class="fa-solid fa-cart-shopping"
+                      ><span id="countCart">0</span></i
+                    ></a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <div class="vh-100">
+          <div class="slider" id="slider">
+            <i class="fa-solid fa-circle-arrow-left" id="next"></i>
+            <i class="fa-solid fa-circle-arrow-right" id="prev"></i>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="about mt-5" id="about">
+      <div class="container">
+        <h2>Welcome to Our Store</h2>
+        <br />
+        <p>
+          We are Special Store for all types of Clothing ,we have good offers
+          and sales,<br />
+          come and shop online from our website now
+        </p>
+      </div>
+      <br />
+      <br />
+    </section>
+    <section class="products mt-5" id="products">
+      <h2 id="productss">OUR Products</h2>
+      <div class="categories">
+        <a class="category active" id="menClothes">Men</a>
+        <a class="category" id="womanClothes">Women</a>
+        <a class="category" id="phones">Phones</a>
+        <a class="category" id="watches">Watches</a>
+      </div>
+
+      <div class="cat-products" id="menClothes-Page"></div>
+      <div class="cat-products" id="womanClothes-Page"></div>
+      <div class="cat-products" id="phones-Page"></div>
+      <div class="cat-products" id="watches-Page"></div>
+      <div class="detailsdiv">
+        <div class="details" id="details"></div>
+      </div>
+      <div class="overlay"></div>
+    </section>
+    <div class="top-footer">
+      <div class="container">
+        <div class="footer-container row ms-5 pt-5">
+          <div class="col-lg-4 foot mt-5">
+            <div class="footer-div">
+              <h2>Shop with Us</h2>
+              <p>Your Account</p>
+              <p>Your Orders</p>
+              <p>Your Addresses</p>
+              <p>Your Lists</p>
+            </div>
+          </div>
+          <div class="col-lg-4 foot mt-5">
+            <div class="footer-div">
+              <h2>Get to Know Us</h2>
+              <p>About Ayman's Store</p>
+              <p>Careers</p>
+              <p>Ayman's Store Science</p>
+            </div>
+          </div>
+          <div class="col-lg-4 foot mt-5">
+            <div class="footer-div">
+              <h2>Get to Know Us</h2>
+              <p>About Ayman's Store</p>
+              <p>Careers</p>
+              <p>Ayman's Store Science</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="reserved">
+        <div class="container text-center">
+          <span><i class="fa-brands fa-facebook fa-2x pe-5"></i></span>
+          <span><i class="fa-brands fa-twitter fa-2x pe-5"></i></span>
+          <span><i class="fa-brands fa-linkedin fa-2x pe-5"></i></span>
+          <span><i class="fa-brands fa-square-behance fa-2x pe-5"></i></span>
+          <span><i class="fa-brands fa-youtube fa-2x"></i></span>
+        </div>
+      </div>
+    </div>
+    <script src="/JS/bootstrap.bundle.min.js"></script>
+    <script src="/JS/Main.js"></script>
+  </body>
+</html>
