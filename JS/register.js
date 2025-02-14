@@ -1,6 +1,6 @@
 var email = document.getElementById("email");
 var emailError = document.getElementById("erremail");
-var regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/; //email validation
+var regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 var nameError = document.getElementById("errname");
 var username = document.getElementById("username");
 var password = document.getElementById("password");
